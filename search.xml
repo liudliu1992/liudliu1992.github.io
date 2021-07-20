@@ -3,8 +3,11 @@
   <entry>
     <title>deepin-优化笔记</title>
     <url>/2020/05/20/deepin-%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="deepin-优化笔记"><a href="#deepin-优化笔记" class="headerlink" title="deepin 优化笔记"></a>deepin 优化笔记</h1><p>deepin 安装后问题解决</p>
+    <content><![CDATA[<p>docker 常用命令</p>
 <span id="more"></span>
+
+<h1 id="deepin-优化笔记"><a href="#deepin-优化笔记" class="headerlink" title="deepin 优化笔记"></a>deepin 优化笔记</h1><p>deepin 安装后问题解决</p>
+<!--more-->
 
 <h2 id="deepin-屏幕闪烁解决方案"><a href="#deepin-屏幕闪烁解决方案" class="headerlink" title="deepin 屏幕闪烁解决方案"></a>deepin 屏幕闪烁解决方案</h2><pre><code>    这个系统在滑动的时候, 屏幕一直闪烁, 我也百度到了一篇帖子, 也是同样的问题, 然后一路找到了 github 上, 并根据相关回复, 顺利解决了问题.
     我的系统: deepin 15.11 桌面版, 安装KDE系统设置工具 sudo apt install systemsettings, 然后打开这个软件, 翻到最下面的 显示和配置, 点进去将Redering backend 改为 XRender, 确认应用即可.
@@ -26,13 +29,17 @@
       </categories>
       <tags>
         <tag>deepin</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
     <title>deepin-安装笔记</title>
     <url>/2020/05/20/deepin-%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="deepin-安装笔记"><a href="#deepin-安装笔记" class="headerlink" title="deepin 安装笔记"></a>deepin 安装笔记</h1><p>deepin  开发环境搭建</p>
+    <content><![CDATA[<p>docker 常用命令</p>
 <span id="more"></span>
+
+<h1 id="deepin-安装笔记"><a href="#deepin-安装笔记" class="headerlink" title="deepin 安装笔记"></a>deepin 安装笔记</h1><p>deepin  开发环境搭建</p>
+<!--more-->
 
 <h2 id="软件下载-清华大学开源软件镜像站"><a href="#软件下载-清华大学开源软件镜像站" class="headerlink" title="软件下载 清华大学开源软件镜像站"></a>软件下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a></h2><h2 id="git-的安装"><a href="#git-的安装" class="headerlink" title="git 的安装"></a>git 的安装</h2><pre><code> sudo apt-get install git
 </code></pre>
@@ -146,15 +153,16 @@ EOF
       </categories>
       <tags>
         <tag>deepin</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
     <title>git 命令笔记</title>
     <url>/2020/05/20/git%20%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="git-命令笔记"><a href="#git-命令笔记" class="headerlink" title="git 命令笔记"></a>git 命令笔记</h1><p>git</p>
+    <content><![CDATA[<p>git</p>
 <span id="more"></span>
 
-<h2 id="添加全局git-ignore"><a href="#添加全局git-ignore" class="headerlink" title="添加全局git .ignore"></a>添加全局git .ignore</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global core.excludesfile ~/data/config/git/.gitignore</span><br></pre></td></tr></table></figure>
+<h1 id="git-命令笔记"><a href="#git-命令笔记" class="headerlink" title="git 命令笔记"></a>git 命令笔记</h1><h2 id="添加全局git-ignore"><a href="#添加全局git-ignore" class="headerlink" title="添加全局git .ignore"></a>添加全局git .ignore</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global core.excludesfile ~/data/config/git/.gitignore</span><br></pre></td></tr></table></figure>
 
 <h2 id="linux-记住密码"><a href="#linux-记住密码" class="headerlink" title="linux 记住密码"></a>linux 记住密码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure>
 
@@ -173,10 +181,10 @@ EOF
   <entry>
     <title>docker命令笔记</title>
     <url>/2020/05/20/docker%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h2 id="docker命令笔记"><a href="#docker命令笔记" class="headerlink" title="docker命令笔记"></a>docker命令笔记</h2><p> docker 常用命令</p>
+    <content><![CDATA[<p>docker 常用命令</p>
 <span id="more"></span>
 
-<h3 id="deepin-启动docker报错"><a href="#deepin-启动docker报错" class="headerlink" title="deepin 启动docker报错"></a>deepin 启动docker报错</h3><p>  使用命令删除 apparmor 可以正常运行</p>
+<h2 id="docker命令笔记"><a href="#docker命令笔记" class="headerlink" title="docker命令笔记"></a>docker命令笔记</h2><h3 id="deepin-启动docker报错"><a href="#deepin-启动docker报错" class="headerlink" title="deepin 启动docker报错"></a>deepin 启动docker报错</h3><p>  使用命令删除 apparmor 可以正常运行</p>
 <pre><code>sudo apt remove apparmor
 </code></pre>
 <h3 id="构建mysql容器"><a href="#构建mysql容器" class="headerlink" title="构建mysql容器"></a>构建mysql容器</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run --name mysql5.7 -p 3306:3306 -v /home/leo/data/mysql/data/:/var/lib/mysql -v /home/leo/data/mysql/conf/:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=liu920926 -d mysql:5.7</span><br><span class="line"></span><br><span class="line">docker run --name mysql_ueat -p 3306:3306 -v /home/leo/data/mysql/ueat/data/:/var/lib/mysql -v /home/leo/data/mysql/ueat/conf/:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=liu920926 -d mysql:5.7</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -212,10 +220,10 @@ Bind mounts
   <entry>
     <title>github搭建博客</title>
     <url>/2020/05/20/github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="Hexo-Github博客搭建之环境搭建篇"><a href="#Hexo-Github博客搭建之环境搭建篇" class="headerlink" title="Hexo+Github博客搭建之环境搭建篇"></a>Hexo+Github博客搭建之环境搭建篇</h1><p>使用 hexo+git 搭建项目</p>
+    <content><![CDATA[<p>使用 hexo+git 搭建项目</p>
 <span id="more"></span>
 
-<h2 id="前置条件"><a href="#前置条件" class="headerlink" title="前置条件"></a>前置条件</h2><ul>
+<h1 id="Hexo-Github博客搭建之环境搭建篇"><a href="#Hexo-Github博客搭建之环境搭建篇" class="headerlink" title="Hexo+Github博客搭建之环境搭建篇"></a>Hexo+Github博客搭建之环境搭建篇</h1><h2 id="前置条件"><a href="#前置条件" class="headerlink" title="前置条件"></a>前置条件</h2><ul>
 <li> 有githup账号</li>
 <li> 安装git环境</li>
 <li> 安装node环境</li>
