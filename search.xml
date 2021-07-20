@@ -3,13 +3,10 @@
   <entry>
     <title>deepin-优化笔记</title>
     <url>/2020/05/20/deepin-%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>deepin 安装后设置</p>
+    <content><![CDATA[<p>deepin 安装后问题解决</p>
 <span id="more"></span>
 
-<h1 id="deepin-优化笔记"><a href="#deepin-优化笔记" class="headerlink" title="deepin 优化笔记"></a>deepin 优化笔记</h1><p>deepin 安装后问题解决</p>
-<!--more-->
-
-<h2 id="deepin-屏幕闪烁解决方案"><a href="#deepin-屏幕闪烁解决方案" class="headerlink" title="deepin 屏幕闪烁解决方案"></a>deepin 屏幕闪烁解决方案</h2><pre><code>    这个系统在滑动的时候, 屏幕一直闪烁, 我也百度到了一篇帖子, 也是同样的问题, 然后一路找到了 github 上, 并根据相关回复, 顺利解决了问题.
+<h1 id="deepin-优化笔记"><a href="#deepin-优化笔记" class="headerlink" title="deepin 优化笔记"></a>deepin 优化笔记</h1><h2 id="deepin-屏幕闪烁解决方案"><a href="#deepin-屏幕闪烁解决方案" class="headerlink" title="deepin 屏幕闪烁解决方案"></a>deepin 屏幕闪烁解决方案</h2><pre><code>    这个系统在滑动的时候, 屏幕一直闪烁, 我也百度到了一篇帖子, 也是同样的问题, 然后一路找到了 github 上, 并根据相关回复, 顺利解决了问题.
     我的系统: deepin 15.11 桌面版, 安装KDE系统设置工具 sudo apt install systemsettings, 然后打开这个软件, 翻到最下面的 显示和配置, 点进去将Redering backend 改为 XRender, 确认应用即可.
 </code></pre>
 <h2 id="添加-打开微信快捷键"><a href="#添加-打开微信快捷键" class="headerlink" title="添加 打开微信快捷键"></a>添加 打开微信快捷键</h2><pre><code>设置中心-&gt;键盘-&gt;快捷键中添加，如下：
@@ -35,13 +32,10 @@
   <entry>
     <title>deepin-安装笔记</title>
     <url>/2020/05/20/deepin-%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>docker 常用命令</p>
+    <content><![CDATA[<p>deepin  开发环境搭建</p>
 <span id="more"></span>
 
-<h1 id="deepin-安装笔记"><a href="#deepin-安装笔记" class="headerlink" title="deepin 安装笔记"></a>deepin 安装笔记</h1><p>deepin  开发环境搭建</p>
-<!--more-->
-
-<h2 id="软件下载-清华大学开源软件镜像站"><a href="#软件下载-清华大学开源软件镜像站" class="headerlink" title="软件下载 清华大学开源软件镜像站"></a>软件下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a></h2><h2 id="git-的安装"><a href="#git-的安装" class="headerlink" title="git 的安装"></a>git 的安装</h2><pre><code> sudo apt-get install git
+<h1 id="deepin-安装笔记"><a href="#deepin-安装笔记" class="headerlink" title="deepin 安装笔记"></a>deepin 安装笔记</h1><h2 id="软件下载-清华大学开源软件镜像站"><a href="#软件下载-清华大学开源软件镜像站" class="headerlink" title="软件下载 清华大学开源软件镜像站"></a>软件下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a></h2><h2 id="git-的安装"><a href="#git-的安装" class="headerlink" title="git 的安装"></a>git 的安装</h2><pre><code> sudo apt-get install git   
 </code></pre>
 <h2 id="Java-jdk环境配置"><a href="#Java-jdk环境配置" class="headerlink" title="Java jdk环境配置"></a>Java jdk环境配置</h2><blockquote>
 <p><a href="https://www.oracle.com/technetwork/java/javase/archive-139210.html">下载jdk</a></p>
