@@ -151,28 +151,6 @@ EOF
       </tags>
   </entry>
   <entry>
-    <title>git 命令笔记</title>
-    <url>/2020/05/20/git%20%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>git</p>
-<span id="more"></span>
-
-<h1 id="git-命令笔记"><a href="#git-命令笔记" class="headerlink" title="git 命令笔记"></a>git 命令笔记</h1><h2 id="添加全局git-ignore"><a href="#添加全局git-ignore" class="headerlink" title="添加全局git .ignore"></a>添加全局git .ignore</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global core.excludesfile ~/data/config/git/.gitignore</span><br></pre></td></tr></table></figure>
-
-<h2 id="linux-记住密码"><a href="#linux-记住密码" class="headerlink" title="linux 记住密码"></a>linux 记住密码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure>
-
-<h2 id="git-生成ssh"><a href="#git-生成ssh" class="headerlink" title="git 生成ssh"></a>git 生成ssh</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C leo.sl.liu1992@gmail.com</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>docker命令笔记</title>
     <url>/2020/05/20/docker%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>docker 常用命令</p>
@@ -209,6 +187,28 @@ Bind mounts
       </categories>
       <tags>
         <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git 命令笔记</title>
+    <url>/2020/05/20/git%20%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>git</p>
+<span id="more"></span>
+
+<h1 id="git-命令笔记"><a href="#git-命令笔记" class="headerlink" title="git 命令笔记"></a>git 命令笔记</h1><h2 id="添加全局git-ignore"><a href="#添加全局git-ignore" class="headerlink" title="添加全局git .ignore"></a>添加全局git .ignore</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global core.excludesfile ~/data/config/git/.gitignore</span><br></pre></td></tr></table></figure>
+
+<h2 id="linux-记住密码"><a href="#linux-记住密码" class="headerlink" title="linux 记住密码"></a>linux 记住密码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure>
+
+<h2 id="git-生成ssh"><a href="#git-生成ssh" class="headerlink" title="git 生成ssh"></a>git 生成ssh</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C leo.sl.liu1992@gmail.com</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
