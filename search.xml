@@ -30,6 +30,45 @@
       </tags>
   </entry>
   <entry>
+    <title>docker命令笔记</title>
+    <url>/2020/05/20/docker%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>docker 常用命令</p>
+<span id="more"></span>
+
+<h2 id="docker命令笔记"><a href="#docker命令笔记" class="headerlink" title="docker命令笔记"></a>docker命令笔记</h2><h3 id="deepin-启动docker报错"><a href="#deepin-启动docker报错" class="headerlink" title="deepin 启动docker报错"></a>deepin 启动docker报错</h3><p>  使用命令删除 apparmor 可以正常运行</p>
+<pre><code>sudo apt remove apparmor
+</code></pre>
+<h3 id="构建mysql容器"><a href="#构建mysql容器" class="headerlink" title="构建mysql容器"></a>构建mysql容器</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run --name mysql5.7 -p 3306:3306 -v /home/leo/data/mysql/data/:/var/lib/mysql -v /home/leo/data/mysql/conf/:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=liu920926 -d mysql:5.7</span><br><span class="line"></span><br><span class="line">docker run --name mysql_ueat -p 3306:3306 -v /home/leo/data/mysql/ueat/data/:/var/lib/mysql -v /home/leo/data/mysql/ueat/conf/:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=liu920926 -d mysql:5.7</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="构建镜像"><a href="#构建镜像" class="headerlink" title="构建镜像"></a>构建镜像</h3><pre><code>docker build -t apiImg .
+</code></pre>
+<h3 id="docker-命令"><a href="#docker-命令" class="headerlink" title="docker 命令"></a>docker 命令</h3><pre><code>-d 后台运行
+--name 给容器命名
+-p 端口映射 宿主机端口:docker端口
+-v 挂载数据 宿主机目录:docker内目录
+--privileged 最高优先级
+Bind mounts
+3311
+</code></pre>
+<h2 id="maven命令笔记"><a href="#maven命令笔记" class="headerlink" title="maven命令笔记"></a>maven命令笔记</h2><ol>
+<li><p>打包</p>
+<pre><code> mvn clean package -Dmaven.test.skip=true
+</code></pre>
+</li>
+</ol>
+<pre><code>    mvn install:install-file -Dfile=/home/leo/Documents/antcloud-prod-api-sdk-2.3.4.jar -DgroupId=cn.yidun -DartifactId=antcloud -Dversion=2.3.4 -Dpackaging=jar
+</code></pre>
+]]></content>
+      <categories>
+        <category>linux</category>
+        <category>运维</category>
+        <category>开发</category>
+      </categories>
+      <tags>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>deepin-安装笔记</title>
     <url>/2020/05/20/deepin-%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>deepin  开发环境搭建</p>
@@ -148,45 +187,6 @@ EOF
       <tags>
         <tag>deepin</tag>
         <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>docker命令笔记</title>
-    <url>/2020/05/20/docker%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>docker 常用命令</p>
-<span id="more"></span>
-
-<h2 id="docker命令笔记"><a href="#docker命令笔记" class="headerlink" title="docker命令笔记"></a>docker命令笔记</h2><h3 id="deepin-启动docker报错"><a href="#deepin-启动docker报错" class="headerlink" title="deepin 启动docker报错"></a>deepin 启动docker报错</h3><p>  使用命令删除 apparmor 可以正常运行</p>
-<pre><code>sudo apt remove apparmor
-</code></pre>
-<h3 id="构建mysql容器"><a href="#构建mysql容器" class="headerlink" title="构建mysql容器"></a>构建mysql容器</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run --name mysql5.7 -p 3306:3306 -v /home/leo/data/mysql/data/:/var/lib/mysql -v /home/leo/data/mysql/conf/:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=liu920926 -d mysql:5.7</span><br><span class="line"></span><br><span class="line">docker run --name mysql_ueat -p 3306:3306 -v /home/leo/data/mysql/ueat/data/:/var/lib/mysql -v /home/leo/data/mysql/ueat/conf/:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=liu920926 -d mysql:5.7</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="构建镜像"><a href="#构建镜像" class="headerlink" title="构建镜像"></a>构建镜像</h3><pre><code>docker build -t apiImg .
-</code></pre>
-<h3 id="docker-命令"><a href="#docker-命令" class="headerlink" title="docker 命令"></a>docker 命令</h3><pre><code>-d 后台运行
---name 给容器命名
--p 端口映射 宿主机端口:docker端口
--v 挂载数据 宿主机目录:docker内目录
---privileged 最高优先级
-Bind mounts
-3311
-</code></pre>
-<h2 id="maven命令笔记"><a href="#maven命令笔记" class="headerlink" title="maven命令笔记"></a>maven命令笔记</h2><ol>
-<li><p>打包</p>
-<pre><code> mvn clean package -Dmaven.test.skip=true
-</code></pre>
-</li>
-</ol>
-<pre><code>    mvn install:install-file -Dfile=/home/leo/Documents/antcloud-prod-api-sdk-2.3.4.jar -DgroupId=cn.yidun -DartifactId=antcloud -Dversion=2.3.4 -Dpackaging=jar
-</code></pre>
-]]></content>
-      <categories>
-        <category>linux</category>
-        <category>运维</category>
-        <category>开发</category>
-      </categories>
-      <tags>
-        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
