@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux 常用命令记录</title>
+    <url>/2021/07/22/Linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>这是开发过程中常用的linux命令记录</p>
+<span id="more"></span>            
+
+<h1 id="Linux-常用命令记录"><a href="#Linux-常用命令记录" class="headerlink" title="Linux 常用命令记录"></a>Linux 常用命令记录</h1><h2 id="使用sed命令截取指定时间范围内的日志"><a href="#使用sed命令截取指定时间范围内的日志" class="headerlink" title="使用sed命令截取指定时间范围内的日志"></a>使用sed命令截取指定时间范围内的日志</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sed -n &#x27;/2021-02-18 14:53:24/, /2021-02-18 15:24:48/p&#x27; /opt/logs/odc-orderserver-api/odc.log &gt; /opt/logs/odc-orderserver-api/odc2.log</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>linux</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>deepin-优化笔记</title>
     <url>/2020/05/20/deepin-%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>deepin 安装后问题解决</p>
@@ -25,8 +43,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>deepin</tag>
         <tag>linux</tag>
+        <tag>deepin</tag>
       </tags>
   </entry>
   <entry>
@@ -146,8 +164,8 @@ EOF
         <category>linux</category>
       </categories>
       <tags>
-        <tag>deepin</tag>
         <tag>linux</tag>
+        <tag>deepin</tag>
       </tags>
   </entry>
   <entry>
@@ -251,24 +269,6 @@ Bind mounts
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux 常用命令记录</title>
-    <url>/2021/07/22/Linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>这是开发过程中常用的linux命令记录</p>
-<span id="more"></span>            
-
-<h1 id="Linux-常用命令记录"><a href="#Linux-常用命令记录" class="headerlink" title="Linux 常用命令记录"></a>Linux 常用命令记录</h1><h2 id="使用sed命令截取指定时间范围内的日志"><a href="#使用sed命令截取指定时间范围内的日志" class="headerlink" title="使用sed命令截取指定时间范围内的日志"></a>使用sed命令截取指定时间范围内的日志</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sed -n &#x27;/2021-02-18 14:53:24/, /2021-02-18 15:24:48/p&#x27; /opt/logs/odc-orderserver-api/odc.log &gt; /opt/logs/odc-orderserver-api/odc2.log</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>linux</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>笔记</tag>
       </tags>
   </entry>
 </search>
