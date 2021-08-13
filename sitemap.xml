@@ -2,37 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.liusl.club/2020/05/20/deepin-%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://www.liusl.club/2021/08/08/Docker-%E5%AE%89%E8%A3%85nacos/</loc>
     
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-08-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.liusl.club/2020/05/20/github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://www.liusl.club/2021/07/22/Linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</loc>
     
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-08-13</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.liusl.club/2020/05/20/deepin-%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2021-07-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.liusl.club/2020/05/20/git%20%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-08-13</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.liusl.club/2020/05/20/docker%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-08-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.liusl.club/2021/08/03/deepin-sudo%E5%85%8D%E5%AF%86%E7%A0%81/</loc>
+    
+    <lastmod>2021-08-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.liusl.club/2020/05/20/deepin-%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2021-08-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.liusl.club/2020/05/20/github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2021-08-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.liusl.club/2020/05/20/git%20%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2021-08-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.liusl.club/2021/07/21/%E8%AE%BE%E7%BD%AE/</loc>
+    
+    <lastmod>2021-07-21</lastmod>
     
   </url>
   
@@ -60,43 +88,43 @@
 
   <url>
     <loc>https://www.liusl.club/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.liusl.club/tags/deepin/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <loc>https://www.liusl.club/tags/docker/</loc>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.liusl.club/tags/linux/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.liusl.club/tags/docker/</loc>
-    <lastmod>2021-07-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.liusl.club/tags/git/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <loc>https://www.liusl.club/tags/deepin/</loc>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.liusl.club/tags/hexo/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <lastmod>2021-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.liusl.club/tags/git/</loc>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -104,36 +132,36 @@
 
   
   <url>
-    <loc>https://www.liusl.club/categories/linux/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <loc>https://www.liusl.club/categories/%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.liusl.club/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <loc>https://www.liusl.club/categories/linux/</loc>
+    <lastmod>2021-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.liusl.club/categories/linux/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.liusl.club/categories/hexo/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.liusl.club/categories/linux/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2021-07-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.liusl.club/categories/linux/%E8%BF%90%E7%BB%B4/%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2021-07-21</lastmod>
+    <loc>https://www.liusl.club/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2021-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
